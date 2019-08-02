@@ -9,6 +9,6 @@ def reverse_each_word (string)
   
   return new_sentence.join(" ")
   new_sentence.reverse
-  new_sentence
+  
   
 end
