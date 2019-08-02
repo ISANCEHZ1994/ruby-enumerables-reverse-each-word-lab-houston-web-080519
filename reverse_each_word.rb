@@ -7,8 +7,7 @@ def reverse_each_word (string)
     wordToReverse = word.split('')
     newWord = []
     wordToReverse.size.times {newWord << wordToReverse.pop}
-    newNew = newWord.join #arr to string
-    newStr.push(newNew) #in bag
+    newStr << newWord.join 
   end
   newStr.join(' ')
 end
