@@ -10,4 +10,5 @@ def reverse_each_word (string)
       newWord.push(wordToReverse.pop)
     end
   end
+  newStr
 end
