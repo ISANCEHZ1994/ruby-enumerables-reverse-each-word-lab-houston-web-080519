@@ -9,5 +9,5 @@ def reverse_each_word (string)
     wordToReverse.size.times {newWord << wordToReverse.pop}
     newStr.push(newWord.join)
   end
-  newStr.join
+  newStr.join(' ')
 end
