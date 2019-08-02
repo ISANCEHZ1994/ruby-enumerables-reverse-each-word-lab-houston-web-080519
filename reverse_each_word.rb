@@ -10,8 +10,8 @@ def reverse_each_word (string)
       wordArr.push(word.pop)
     end
     
-  new.push(element.reverse)
+  new.push(wordArr.join(" "))
   end
-  
+  new.join(" ")
 
 end
