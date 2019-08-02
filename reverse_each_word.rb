@@ -1,7 +1,7 @@
 
 def reverse_each_word (string)
   
-  mirror_words = []
+  new_ = []
   
   
   string.reverse
