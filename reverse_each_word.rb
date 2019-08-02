@@ -6,8 +6,8 @@ def reverse_each_word (string)
   string.each do |word|
     newWord = []
     wordToReverse = word.split('')
-    wordToReverse.each do |letter|
-      newWord.push(wordToReverse.pop)
+    wordToReverse.size.times do 
+      
     end
     newStr.push(newWord)
   end
