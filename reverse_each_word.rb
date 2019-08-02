@@ -9,7 +9,7 @@ def reverse_each_word (string)
     wordToReverse.each do |letter|
       newWord.push(wordToReverse.pop)
     end
-    newStr.push(newWord.join)
+    newStr.push(newWord)
   end
   newStr
 end
