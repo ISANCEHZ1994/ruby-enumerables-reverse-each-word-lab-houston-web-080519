@@ -11,3 +11,5 @@ def reverse_each_word (string)
   end
   newStr.join(' ')
 end
+
+reverse_each_word.collect
