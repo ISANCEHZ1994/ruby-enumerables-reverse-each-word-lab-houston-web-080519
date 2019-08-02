@@ -6,6 +6,8 @@ def reverse_each_word (string)
   
   string.each do |element| 
     new_sentence.unshift(element)
+  end
+  
 
   
 end
