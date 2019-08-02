@@ -7,8 +7,6 @@ def reverse_each_word (string)
   new_sentence.unshift(element)
   end
   
-  return new_sentence.join(" ")
-  new_sentence.reverse
-  
+
   
 end
