@@ -9,6 +9,8 @@ def reverse_each_word (string)
   end
   
   return 
+  
+  new_sentence.
 
   
 end
