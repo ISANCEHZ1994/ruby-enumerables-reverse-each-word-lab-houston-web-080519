@@ -7,6 +7,6 @@ def reverse_each_word (string)
   new_sentence.unshift(element)
   end
   
-new_sentence.
+new_sentence.join(" ")
   
 end
